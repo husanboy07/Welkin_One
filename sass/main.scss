@@ -1,0 +1,1399 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+*::selection{
+    background: none;
+    color: gray;
+}
+
+.navbar{
+    background: url(../image/navbar_background.png);
+    height: 625.499px;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    a{
+        text-decoration: none;
+    }
+    .logo{
+        position: absolute;
+        width: 190px;
+        margin-top: 80px;
+        margin-left: 7%;
+    }
+    .Products{
+        color: black;
+        margin-left: 50%;
+        margin-top: 90px;
+    }
+    .Products:hover{
+        color: #FFAD4C;
+        transition: .2s;
+    }
+    .Products:active{
+        cursor: pointer;
+        color: #FFAD4C;
+        transition-duration: .2s;
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+    }
+    .About{
+        color: black;
+        margin-left: 70%;
+        margin-top: -28px;
+    }
+    .About:hover{
+        color: #FFAD4C;
+        transition: .2s;
+    }
+    .About:active{
+        color: #FFAD4C;
+        transition-duration: .2s;
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+    }
+    .Furniture{
+        color: black;
+        margin-left: 60%;
+        margin-top: -28px;
+    }
+    .Furniture:hover{
+        color: #FFAD4C;
+        transition: .2s;
+    }
+    .Furniture:active{
+        color: #FFAD4C;
+        transition-duration: .2s;
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+    }
+    .Contact{
+        color: black;
+        margin-left: 80%;
+        margin-top: -28px;
+    }
+    .Contact:hover{
+        color: #FFAD4C;
+        transition: .2s;
+    }
+    .Contact:active{
+        color: #FFAD4C;
+        transition-duration: .2s;
+            -webkit-animation-name: pulse;
+            animation-name: pulse;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            }
+            @-webkit-keyframes pulse {
+            0% {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            50% {
+            -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05);
+            }
+            100% {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            }
+            @keyframes pulse {
+            0% {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            50% {
+            -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05);
+            }
+            100% {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            
+    }
+    h1{
+        color: #4B4B4B;
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 74px;
+        letter-spacing: 0.01em;
+        text-transform: capitalize;
+        margin-top: 7%;
+        margin-left: 7%;
+    }
+    p{
+        color: #4B4B4B;
+        opacity: 0.7;
+        margin-left: 7%;
+        margin-top: 2%;
+        font-size: 24px;
+    }
+    button{
+        padding: 12px 23px;
+        background: #FFAD4C;
+        backdrop-filter: blur(4px);
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+    button:hover{
+        cursor: pointer;
+        
+    }
+    button:active{
+        box-shadow: 0 0 10px 5px #FFAD4C;
+    }
+}
+
+.main_section{
+    h1{
+        position: absolute;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 120%;
+        margin-top: 50%;
+        margin-left: 7%;
+    }
+    .card_background{
+        position: absolute;
+        width: 250px;
+        margin-left: 7%;
+        margin-top: 55%;
+    }
+    .card_background_one{
+        position: absolute;
+        width: 250px;
+        margin-left: 28%;
+        margin-top: 55%;
+    }
+    .image1{
+        position: absolute;
+        width: 250px;
+        margin-top: 55%;
+        margin-left: 7%;
+        transition: .5s ease;
+        // justify-content: center;
+        // align-items: center;
+    }
+    .image1:hover{
+        cursor: pointer;
+        object-fit: cover;
+            -webkit-animation-name: pulse;
+            animation-name: pulse;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            }
+            @-webkit-keyframes pulse {
+            0% {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            50% {
+            -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05);
+            }
+            100% {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            }
+            @keyframes pulse {
+            0% {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            50% {
+            -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05);
+            }
+            100% {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            
+    }
+    .image2{
+        position: absolute;
+        width: 250px;
+        margin-top: 55%;
+        margin-left: 28%;
+    }
+    .image2:hover{
+        cursor: pointer;
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+    }
+    .card_background_two{
+        position: absolute;
+        width: 250px;
+        margin-top: 55%;
+        margin-left: 49.5%;
+    }
+    .image3{
+        position: absolute;
+        width: 250px;
+        margin-left: 49.5%;
+        margin-top: 55%;
+    }
+    .image3:hover{
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+    }
+    .card_background_three{
+        position: absolute;
+        width: 250px;
+        margin-top: 55%;
+        margin-left: 71%;
+    }
+    .image4{
+        position: absolute;
+        width: 250px;
+        margin-left: 71%;
+        margin-top: 55%;
+    }
+    .image4:hover{
+        cursor: pointer;
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+    }
+    .ellipse{
+        position: absolute;
+        width: 40px;
+        margin-top: 57%;
+        margin-left: 68%;
+    }
+    .Chair{
+        position: absolute;
+        margin-top: 73%;
+        font-size: 24px;
+        margin-left: 8%;
+    }
+    .Chair:hover{
+        object-fit: cover;
+        border-radius: 10px;
+        transition: .3s ease;
+    }
+    .room{
+        position: absolute;
+        font-size: 16px;
+        margin-top: 75.5%;
+        margin-left: 8%;
+    }
+    .summa{
+        position: absolute;
+        margin-top: 77.5%;
+        margin-left: 8%;
+    }
+    .suma_minus{
+        position: absolute;
+        color: gray;
+        margin-top: 77.6%;
+        margin-left: 18%;
+    }
+    .Chair1{
+        position: absolute;
+        margin-top: 73%;
+        font-size: 24px;
+        margin-left: 29%;
+    }
+    .room1{
+        position: absolute;
+        font-size: 16px;
+        margin-top: 75.5%;
+        margin-left: 29%;
+    }
+    .summa1{
+        position: absolute;
+        margin-top: 77.5%;
+        margin-left: 29%;
+    }
+    .suma_minus1{
+        position: absolute;
+        color: gray;
+        margin-top: 77.6%;
+        margin-left: 39%;
+    }
+    .Chair2{
+        position: absolute;
+        margin-top: 73%;
+        font-size: 24px;
+        margin-left: 51%;
+    }
+    .room2{
+        position: absolute;
+        font-size: 16px;
+        margin-top: 75.5%;
+        margin-left: 51%;
+    }
+    .summa2{
+        position: absolute;
+        margin-top: 77.5%;
+        margin-left: 51%;
+    }
+    .suma_minus2{
+        position: absolute;
+        color: gray;
+        margin-top: 77.6%;
+        margin-left: 60%;
+    }
+    .Chair3{
+        position: absolute;
+        margin-top: 73%;
+        font-size: 24px;
+        margin-left: 72%;
+    }
+    .room3{
+        position: absolute;
+        font-size: 16px;
+        margin-top: 75.5%;
+        margin-left: 72%;
+    }
+    .summa3{
+        position: absolute;
+        margin-top: 77.5%;
+        margin-left: 72%;
+    }
+    .suma_minus3{
+        position: absolute;
+        color: gray;
+        margin-top: 77.6%;
+        margin-left: 81.5%;
+    }
+}
+
+.selection{
+    .card_background{
+        position: absolute;
+        width: 250px;
+        margin-left: 7%;
+        margin-top: 82.5%;
+    }
+    .image1{
+        position: absolute;
+        width: 250px;
+        margin-top: 82.5%;
+        margin-left: 7%;
+    }
+    .image1:hover{
+        cursor: pointer;
+        object-fit: cover;
+            -webkit-animation-name: pulse;
+            animation-name: pulse;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            }
+            @-webkit-keyframes pulse {
+            0% {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            50% {
+            -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05);
+            }
+            100% {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            }
+            @keyframes pulse {
+            0% {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            50% {
+            -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05);
+            }
+            100% {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            
+    }
+    .card_background_one{
+        position: absolute;
+        width: 250px;
+        margin-left: 28%;
+        margin-top: 82.5%;
+    }
+    .image2{
+        position: absolute;
+        width: 250px;
+        margin-top: 82.5%;
+        margin-left: 28%;
+    }
+    .image2:hover{
+        cursor: pointer;
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+    }
+    .card_background_two{
+        position: absolute;
+        width: 250px;
+        margin-top: 82.5%;
+        margin-left: 49.5%;
+    }
+    .image3{
+        position: absolute;
+        width: 250px;
+        margin-left: 49.5%;
+        margin-top: 82.5%;
+    }
+    .image3:hover{
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+    }
+    .card_background_three{
+        position: absolute;
+        width: 250px;
+        margin-top: 82.5%;
+        margin-left: 71%;
+    }
+    .image4{
+        position: absolute;
+        width: 250px;
+        margin-left: 71%;
+        margin-top: 82.5%;
+    }
+    .image4:hover{
+        cursor: pointer;
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+    }
+    .ellipse{
+        position: absolute;
+        width: 40px;
+        margin-top: 57%;
+        margin-left: 68%;
+    }
+    .Chair{
+        position: absolute;
+        margin-top: 100%;
+        font-size: 24px;
+        margin-left: 8%;
+    }
+    .Chair:hover{
+        object-fit: cover;
+        border-radius: 10px;
+        transition: .3s ease;
+    }
+    .room{
+        position: absolute;
+        font-size: 16px;
+        margin-top: 102.5%;
+        margin-left: 8%;
+    }
+    .summa{
+        position: absolute;
+        margin-top: 105%;
+        margin-left: 8%;
+    }
+    .suma_minus{
+        position: absolute;
+        color: gray;
+        margin-top: 105.1%;
+        margin-left: 18%;
+    }
+    .Chair1{
+        position: absolute;
+        margin-top: 100%;
+        font-size: 24px;
+        margin-left: 29%;
+    }
+    .room1{
+        position: absolute;
+        font-size: 16px;
+        margin-top: 102.5%;
+        margin-left: 29%;
+    }
+    .summa1{
+        position: absolute;
+        margin-top: 105%;
+        margin-left: 29%;
+    }
+    .suma_minus1{
+        position: absolute;
+        color: gray;
+        margin-top: 105.1%;
+        margin-left: 39%;
+    }
+    .Chair2{
+        position: absolute;
+        margin-top: 100%;
+        font-size: 24px;
+        margin-left: 51%;
+    }
+    .room2{
+        position: absolute;
+        font-size: 16px;
+        margin-top: 102.5%;
+        margin-left: 51%;
+    }
+    .summa2{
+        position: absolute;
+        margin-top: 105%;
+        margin-left: 51%;
+    }
+    .suma_minus2{
+        position: absolute;
+        color: gray;
+        margin-top: 105.1%;
+        margin-left: 60%;
+    }
+    .Chair3{
+        position: absolute;
+        margin-top: 100%;
+        font-size: 24px;
+        margin-left: 72%;
+    }
+    .room3{
+        position: absolute;
+        font-size: 16px;
+        margin-top: 102.5%;
+        margin-left: 72%;
+    }
+    .summa3{
+        position: absolute;
+        margin-top: 105%;
+        margin-left: 72%;
+    }
+    .suma_minus3{
+        position: absolute;
+        color: gray;
+        margin-top: 105.1%;
+        margin-left: 81.5%;
+    }
+    button{
+        position: absolute; 
+        margin-top: 110%;
+        width: 110.76px;
+        height: 47.65px;
+        background: #FFAD4C;
+        border-radius: 8px;
+        border: #FFAD4C;
+        color: #fff;
+        margin-left: 43%;
+    }
+    button:hover{
+        cursor: pointer;
+        box-shadow: 0 0 10px 5px #FFAD4C;
+        transition: 0.7s;
+    }
+}
+
+.furniture{
+    h1{
+        position: absolute;
+        color: #4B4B4B;
+        margin-left: 7%;
+        margin-top: 120%;
+    }
+    h3{
+        position: absolute;
+        color: #4B4B4B;
+        margin-left: 7%;
+        margin-top: 125%;
+    }
+    img{
+        position: absolute;
+        width: 600px;
+        margin-left: 7%;
+        margin-top: 131.3%;
+    }
+// 
+    .kreslo{
+        width: 170px;
+        margin-left: 55%;
+        margin-top: 125%;
+    }
+    .kreslo:hover{
+        cursor: pointer;
+        -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+    }
+    h4{
+        position: absolute;
+        margin-top: 125%;
+        margin-left: 70%;
+    }
+    p{
+        position: absolute;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        margin-left: 70%;
+        margin-top: 128%;
+    }
+    .kreslo1{
+        width: 170px;
+        margin-left: 55%;
+        margin-top: 138.5%;
+    }
+    .kreslo1:hover{
+        -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+    }
+    .Bedroom{
+        position: absolute;
+        margin-top: 139%;
+        margin-left: 70%;
+    }
+    .unlesh{
+        position: absolute;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        margin-left: 70%;
+        margin-top: 142%;
+    }
+    .kreslo2{
+        width: 170px;
+        margin-left: 55%;
+        margin-top: 152%;
+    }
+    .kreslo2:hover{
+        cursor: pointer;
+        -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+    }
+    .Bedroom{
+        position: absolute;
+        margin-top: 139%;
+        margin-left: 70%;
+    }
+    .unlesh{
+        position: absolute;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        margin-left: 70%;
+        margin-top: 142%;
+    }
+    .Office{
+        position: absolute;
+        margin-top: 152%;
+        margin-left: 70%;
+    }
+    .home{
+        margin-top: 155%;
+    }
+}
+
+.main_group{
+    .box{
+        border: 1px solid #F4F5F7;
+        width: 1100px;
+        position: absolute;
+        height: 200px;
+        margin-top: 185%;
+        margin-left: 7%;
+        background: #F4F5F7;
+        border-radius: 10px; 
+    h2{
+        margin-left: 5%;
+        margin-top: 2%;
+        position: absolute;
+    }
+    p{
+        margin-left: 5%;
+        margin-top: 7%;
+        position: absolute;
+    }
+    button{
+        width: 130px;
+        height: 50px;
+        position: absolute;
+        border: none;
+        background: #FFAD4C;
+        border-radius: 8px;
+        margin-left: 5%;
+        margin-top: 12%;
+        color: #fff;
+    }
+    button:hover{
+        cursor: pointer;
+        box-shadow: 0 0 10px 5px #FFAD4C;
+        transition: 0.7s;
+    }
+    img{
+        width: 390px;
+        margin-left: 55%;
+        margin-top: -10%;
+        }
+    img:hover{
+        cursor: pointer;
+        -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+    }
+        }
+//    .box:hover{
+//        cursor: pointer;
+//        box-shadow: 5px  5px 10px #4B4B4B;
+//    }
+}
+
+.about{
+    h1{
+        position: absolute;
+        margin-top: 210%;
+        margin-left: 7%;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 120%;
+    }
+    #food{
+        position: absolute;
+        width: 510px;
+        margin-left: 7%;
+        margin-top: 220%;
+    }
+    #food:hover{
+        cursor: pointer;
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+    }
+    h2{
+        position: absolute;
+        margin-top: 225%;
+        margin-left: 50%;
+    }
+    p{
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 230%;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 150%;
+    }
+.about_one{
+    img{
+        position: absolute;
+        width: 510px;
+        margin-left: 53.5%;
+        margin-top: 260%;
+        }
+    img:hover{
+        cursor: pointer;
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+    }
+    h2{
+        position: absolute;
+        margin-top: 265%;
+        margin-left: 7%;
+        }
+    p{
+        position: absolute;
+        margin-top: 270%;
+        margin-left: 7%;
+        }
+    }
+}
+
+.footer{
+    border: 1px solid #F4F5F7;
+    position: absolute;
+    width: 99.85%;
+    height:70%;
+    margin-top: 300%;
+    background-color: #F4F5F7;
+    .logo{
+        width: 209px;
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+    .Worldwide{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        margin-left: 7%;
+        margin-top: 2%;
+    }
+    .map{
+        margin-left: 7%;
+        margin-top: 3%;
+    }
+    .tashkent{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        margin-left: 9%;
+        margin-top: -2%;
+    }
+    .phone{
+        margin-left: 7%;
+        margin-top: 2%;
+    }
+    .number{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        margin-left: 9%;
+        margin-top: -2%;
+    }
+    .sayt{
+        margin-left: 7%;
+        margin-top: 3%;
+    }
+    .footer_menu{
+        margin-left: 35%;
+        margin-top: -18%;
+        a{
+            text-decoration: none;
+            color: #4B4B4B;
+        }
+        .Products{
+            margin-top: 5%;
+        }
+        .Rooms{
+            margin-top: 2%;
+        }
+    }
+    .footer_stay{
+        margin-left: 50%;
+        margin-top: -17%;
+        a{
+            text-decoration: none;
+            color: #4B4B4B;
+        }
+        .Facebook{
+        margin-top: 6%;
+    }.Instagram{
+        margin-top: 3%;
+    }
+    }
+    
+    .footer-updated{
+        h2{
+            margin-left: 75%;
+            margin-top: -14%; 
+        }
+        input{
+            background: #FFFFFF;
+            border-radius: 8px 0px 0px 8px;
+            width: 244.85px;
+            height: 45px;
+            padding-left: 10px;
+            margin-left: 75%;
+            margin-top: 3%;
+            border: none;
+        }
+        ::placeholder{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+        }
+        .background{
+            margin-top: 3%;
+            margin-left: -0.5;
+            position: absolute;
+        }
+        .telegram{
+            position: absolute;
+            margin-top: 4%;
+            margin-left: 1%;
+            width: 20px;
+        }
+    }
+}
